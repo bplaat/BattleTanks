@@ -2,8 +2,8 @@ extends KinematicBody2D
 
 var TankRedBullet = preload("res://scenes/TankRedBullet.tscn")
 
-const HEALTH_MAX = 100
-var health = 4
+const HEALTH_MAX = 50
+var health = HEALTH_MAX
 
 func _ready():
 	$HealthBar.set_health(health, HEALTH_MAX)
